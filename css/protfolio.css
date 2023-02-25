@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+.fulls{
+	position: relative;
+	width: 100%;
+	height: 20vh;
+	
+
+}
+nav{
+	display: flex;
+	width: 84%;
+	margin: auto;
+	padding: 20px 0 ;
+	align-items: center;
+	justify-content: space-between;
+
+}
+nav ul li{
+	display:inline-block; 
+	list-style: none;
+	margin: 10px 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	color:gray;
+}
+.scren{
+	width:100%;
+	height:300px;
+	background-color:160d0d;
+}
+.scren h1{
+	color: white;
+
+	text-align: center;
+	transform: translate(00%,300%);
+	transition: bottom 1s, left 1s;
+	font-weight: bold;
+}
+.skill{
+	display: flex;
+	width: 100%;
+	height: 100px;
+	
+	
+	
+
+}
+
+.skill ul li a{
+	background: #212121;
+	padding: 10px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	margin: 50px 150px;
+	border-radius: 5px;
+	
+   
+}
+.edubody{
+	width: 100%
+	height:200px;
+	float: left;
+
+	
+}
+.edubody p{
+	color: #555;
+	line-height: 30px;
+	float: left;
+	
+	margin: 50px 150px;
+	
+
+}
+.edubody .eduimg{
+	width: 30%;
+	height: 300px;
+	float: left;
+    align-items: center;
+	transform: translate(00%,-10%);
+	transition: bottom 1s, left 1s;
+	
+}
+.rr{
+	height: 100%;
+	width: 100%;
+	
+}
+.hh{
+	width: 100%
+	height:1000px;
+	
+
+	
+}
+.hh h2{
+	background: #212121;
+	padding: 10px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	margin: 50px 150px;
+	border-radius: 5px;
+	
+}
+.hh h3{
+	text-align: center;
+
+}
+.skilimg{
+	width: 100%
+	height:300px;
+	
+	
+}
+.skilimg ul li img{
+	width: 10%;
+	height: 120px;
+	float: left;
+    align-items: center;
+	transform: translate(260%,20%);
+	transition: bottom 1s, left 1s;
+	margin: 5px 5px;
+	
+
+
+}
+span{
+	color:orange;
+}
+.futer{
+	height: 200px;
+	width: 100%;
+	
+}
